@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTube</title>
+
+    <script src="popup/popup.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="popup/popup.css">
+</head>
+<body>
+    <div class="mainview">
+        <div class="header">
+            <img src="../icons/youtube-logo-red.png" alt="MyTube">
+            <h1 class="header-text">My<span class="header-color">Tube</span></h1>
+        </div>
+
+        <br>
+
+        <div class="body-content">
+            <div class="options">
+                <label for="" class="container">
+                    <input type="checkbox" id="home-feed-opt" />
+                    Remove Homepage Feed?<span class="slider round"></span>
+                </label><br>
+
+                <label for="" class="container">
+                    <input type="checkbox" id="recommendation-opt" />
+                    Remove Recommendations?<span class="slider round"></span>
+                </label><br>
+
+                <label for="" class="container">
+                    <input type="checkbox" id="comments-opt" />
+                    Remove Comments?<span class="slider round"></span>
+                </label><br>
+
+                <label for="" class="container">
+                    <input type="checkbox" id="left-side-bar-opt" />
+                    Remove Left Nav Bar?<span class="slider round"></span>
+                </label><br>
+
+                <label for="" class="container">
+                    <input type="checkbox" id="shorts-opt" />
+                    Remove Shorts?<span class="slider round"></span>
+                </label><br>
+            </div>
+
+            <br>
+
+            <div class="channel-list">
+                <label for="channel-Input">Add Youtube Channel URL:</label>
+                <input type="text" id="channel-Input" />
+                <button onclick="saveChannel()">Save</button>
+            </div>
+            <div id="saved-Channels">
+                <p>Saved Channels:</p>
+                <!-- Channels will populate here in extension -->
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

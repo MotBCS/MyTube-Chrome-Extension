@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "MyTube" ,
+    "description": "View your favorite youtube channels without all the nonsense, removes feed and recommendations from Youtube and allows you to save your favorite channels for quick access.",
+    "version": "1.0.0",
+    "homepage_url": "https://github.com/MotBCS/MyTube-Chrome-Extension",
+    "icons": {
+        "128": "icons/youtube-logo-red.png"
+    },
+    "permissions": [
+        "https://www.youtube.com/*",
+        "storage",
+        "activeTab",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "browser_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icons/youtube-logo-red.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"],
+        "all_frames": true
+    }]
+}
