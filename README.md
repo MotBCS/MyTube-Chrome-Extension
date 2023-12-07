@@ -4,7 +4,8 @@ A Chrome extension that allows the user to view their favorite YouTube channels 
 Install the extension from the Chrome store (Link)
 This extension allows you to remove the homepage feed, recommendations, comments, left navigation bar, and shorts as well as save your favorite channels by URL. Options can be toggled on and off by clicking the box next to it. (Pink = ON , Black = OFF)
 
-<img width="395" alt="Screenshot 2023-12-06 at 20 12 13" src="https://github.com/MotBCS/MyTube-Chrome-Extension/assets/82474687/ae34b7cb-5ba7-49cb-9b39-134ec333cd6b">
+<img width="398" alt="Screenshot 2023-12-07 at 01 22 21" src="https://github.com/MotBCS/MyTube-Chrome-Extension/assets/82474687/101d2bba-9a24-4397-b243-30dc8cd1f9a8">
+
 
 <img width="1000" alt="Screenshot 2023-12-06 at 20 13 00" src="https://github.com/MotBCS/MyTube-Chrome-Extension/assets/82474687/819664b3-21d1-4029-b44c-2dc3410e32d6">
 
